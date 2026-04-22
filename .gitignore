@@ -1,9 +1,8 @@
 # Local .terraform directories
 .terraform/
 
-# .tfstate files
-*.tfstate
-*.tfstate.*
+# State files are intentionally committed on state branches (stage/*).
+# .tfstate is NOT ignored here so that state-branch commits work correctly.
 
 # Crash log files
 crash.log
