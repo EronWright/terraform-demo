@@ -12,15 +12,6 @@ resource "random_pet" "name" {
   separator = "-"
 }
 
-resource "random_integer" "replicas" {
-  min = 1
-  max = 5
-}
-
 output "pet_name" {
   value = random_pet.name.id
-}
-
-output "replicas" {
-  value = random_integer.replicas.result
 }
