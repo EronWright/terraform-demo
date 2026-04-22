@@ -4,4 +4,3 @@ metadata:
   name: terraform-outputs
 data:
   pet_name: ""
-  replicas: ""
